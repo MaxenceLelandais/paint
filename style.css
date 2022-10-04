@@ -1,0 +1,38 @@
+.colorPicker{
+   border: 1px dashed rgb(45, 59, 121);
+}
+
+.grid{
+    border: 1px solid #333;
+    /*display: flex;*/
+    margin: 5px;
+    height: min-content;
+    width: min-content;
+    /*display: flexbox;
+    width: max-content;*/
+}
+
+.pickableColor{
+    border: 1px solid #ccc;
+    display: block;
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+}
+
+.pixel{
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 50px;
+    padding: 0px;
+    width: 50px;
+}
+
+.selected{
+    border: 3px solid #111;
+}
+
+/*
+.root{
+    width: 100%;
+}*/
